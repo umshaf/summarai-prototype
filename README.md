@@ -1,16 +1,58 @@
-# React + Vite
+# SummarAI Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A proof-of-concept prototype developed as part of a computing dissertation exploring AI-assisted academic literature summarisation and human versus AI summary comparison workflows.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- AI-assisted structured literature summaries
+- Human vs AI summary comparison
+- Similarity evaluation dashboard
+- Prototype systematic literature review workflow
+- React + Tailwind interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Prototype Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Dashboard
+
+![Dashboard](images/homepage.png)
+
+---
+
+### AI Summary Output
+
+![Summary](images/ai-summary.png)
+
+---
+
+### Comparison Analysis
+
+![Comparison](images/comparison.png)
+
+---
+
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Lucide React Icons
+
+---
+
+## Dissertation Context
+
+This prototype was developed to support research into the effectiveness of AI-assisted academic literature summarisation. The system demonstrates how AI-generated summaries can be compared against human-written summaries to evaluate similarity, completeness and contextual interpretation.
+
+---
+
+## Running the Project
+
+```bash
+npm install
+npm run dev
+```
